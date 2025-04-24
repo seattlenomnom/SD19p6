@@ -21,28 +21,23 @@ void myprint(int);
 void myprint(double);
 
 int main() {
-
-
-
-
-
+    myprint('c');
+    myprint(123);
+    myprint(456.789);
 }
 
 
 void myprint(char param){
-
-
+    std::cout << "Printing a character: " << param << '\n';
 }
 
+
 void myprint(int param){
-
-
-
+    std::cout << "Printing an integer: " << param << '\n';
 }
 
 
 void myprint(double param){
-
-
+    std::cout << "Printing a double: " << param << '\n';
 }
 
